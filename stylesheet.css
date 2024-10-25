@@ -1,0 +1,108 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Header section styles */
+.header-section {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Name */
+#name-title {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Hover Social Link */
+.social-link {
+    display: inline-block;
+    color: #3498db;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+
+/* About me Section styles */
+.content-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    .subtitle {
+        color: #7f8c8d;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Hobby Section */
+
+.hobbies-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* hobby cards (individual hobbies) */
+.hobby-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+}
+
+.hobby-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hobby-title {
+    color: #2c3e50;
+    margin: 15px;
+    font-size: 1.3em;
+}
+
+.hobby-description {
+    color: #7f8c8d;
+    margin: 0 15px 15px;
+    font-size: 0.9em;
+}
